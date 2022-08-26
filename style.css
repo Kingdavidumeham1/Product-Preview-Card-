@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+body{
+    background-color: hsl(158, 36%, 37%);
+    color:black;
+}
+.container{
+    background-color: hsl(30, 38%, 92%);
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-radius: 10px 10px 10px 10px;
+    transform: translateY(90px)
+}
+
+.text-container {
+    width: 45% ;
+    margin-bottom: -15px;
+    align-items: center;
+}
+.image-container{
+    width: 720px;
+    height: 720px;
+    margin-right: auto;
+    margin-bottom: -5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.price{
+    transform: translateY(150px); 
+    width: 50%;
+    display: flex;
+    align-content: center; 
+    justify-content: space-between;
+    
+}
+#promo-price{
+    color: hsl(158, 36%, 37%);
+    font-family:'Fraunces', serif;;
+    font-size: 48px;
+}
+
+#main-price{
+    color: hsl(228, 12%, 48%);
+    font-size: 24px;
+    transform: translateY(40px);
+}
+.payment-button{
+    background-color: hsl(158, 63%, 17%);
+    width: 40%;
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    margin-left: auto;
+    margin-left: auto;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transform: translateY(250px);
+    
+}
+
+#icon-cart{
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    transform: translateY(10px);
+}
+#click {
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);   
+}
+ #typo{
+       font-size: 24px; 
+    }
+
+    h2{font-family:'Fraunces', serif;
+        font-size: 34px;
+    }
+    h3{font-family:'Montserrat', sans-serif; }
+
+.footer{
+    color:hsl(30, 38%, 92%);
+    transform: translateY(100px);
+    font-family:'Montserrat', sans-serif; 
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer a{
+    color:hsl(30, 38%, 92%);
+}
